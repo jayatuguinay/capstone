@@ -1,0 +1,58 @@
+
+.logo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 60vh;
+    position: relative; /* Add position relative */
+    overflow: hidden; /* Prevent scrollbar */
+    
+}
+
+.header .navbar-nav {
+    align-items: flex-start;
+    height: 100%;
+} 
+
+/* Adjustments */
+.navbar {
+    height: 100vh;
+    flex-direction: column; /* Align navbar items vertically */
+   
+}
+
+.navbar-collapse {
+    width: 100%; /* Occupy full width */
+    max-height: calc(100vh - 56px); /* Subtract navbar height */
+    overflow-y: auto; /* Enable scrolling */
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Adjusted widths */
+.navbar-column {
+    width: 250px; /* Adjust width as needed */
+    padding-right: 15px; /* Add some padding for spacing */
+}
+
+.content-column {
+    flex: 1; /* Occupy remaining width */
+}
+
+/* Custom CSS for nav items */
+.navbar-nav .nav-item {
+    width: 100%; /* Occupy full width */
+    text-align: left; /* Align text to the left */
+}
+.background{
+   /* background-color: #070F2B;*/
+   background-color: #FFFBF5;
+
+}
+
+
+
+
